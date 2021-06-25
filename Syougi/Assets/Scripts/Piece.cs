@@ -14,6 +14,7 @@ public class Piece : MonoBehaviour
     public bool[,] moveArea = new bool[3,3];
 
     public bool test;
+    public int x, y;
 
     // Start is called before the first frame update
     void Start()
@@ -25,9 +26,6 @@ public class Piece : MonoBehaviour
         else {
             this.GetComponent<Renderer>().material = enemyMaterial;
         }
-
-        
-
     }
 
     // Update is called once per frame
@@ -56,5 +54,12 @@ public class Piece : MonoBehaviour
             str += "\n";
         }
         Debug.Log(str);
+    }
+
+    public void Move(int x, int y)
+    {
+        this.transform.position = new Vector3(x-2.0f,y-3.5f,0);
+        this.x = x;
+        this.y = y;
     }
 }

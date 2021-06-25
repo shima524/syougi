@@ -55,8 +55,10 @@
     <UnityVersion>2020.3.9f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Piece.cs" />
     <Compile Include="Assets\Scripts\Table.cs" />
+    <Compile Include="Assets\Scripts\Piece.cs" />
+    <Compile Include="Assets\Scripts\Square.cs" />
+    <Compile Include="Assets\Scripts\CreateSquare.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

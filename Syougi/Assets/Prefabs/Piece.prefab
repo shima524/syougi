@@ -92,7 +92,7 @@ BoxCollider:
   m_GameObject: {fileID: 1897485276620911061}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -111,3 +111,4 @@ MonoBehaviour:
   player: 1
   playerMaterial: {fileID: 2100000, guid: 0424e2d37d23d5d4abcb65468830eb70, type: 2}
   enemyMaterial: {fileID: 2100000, guid: 44e17d98b71fc154392d07df1a07730c, type: 2}
+  test: 0
