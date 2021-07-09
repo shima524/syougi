@@ -469,14 +469,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1897485276620911061, guid: 4688c6be6c438ad4ba50defd4bc7785e, type: 3}
-  playerObject:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  enemyObject:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  playerObject: []
+  enemyObject: []
   clickedGameObject: {fileID: 0}
   selectX: 0
   selectY: 0
